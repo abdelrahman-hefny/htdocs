@@ -1,0 +1,27 @@
+$bfbg:#0075ff;
+
+a {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 800;
+    transition-duration:
+        0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+:root {
+    --main-color: #2450ff;
+    --transparent-color: #3550ff;
+    --secondary-color: #24b2ff;
+    --bg-color: #efefef;
+    --icon-color: #e9e9e9be;
+
+    --section-padding: 60px;
+    --section-background: #e9e9e994;
+    --main-duration: 0.5s;
+}

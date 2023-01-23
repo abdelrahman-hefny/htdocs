@@ -1,0 +1,59 @@
+
+
+/* 23/1/2023 */
+
+/*     General overwrite     */
+a:focus,
+a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: 0;
+}
+
+body {
+  direction: rtl;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 800;
+  transition-duration: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.tc{
+    text-align: center;
+ 
+}
+.btn {
+
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border: 0;
+    cursor: pointer;
+    
+}
+.icons{
+    max-width: 20px;
+    text-align: center;margin: 10px auto;
+}
