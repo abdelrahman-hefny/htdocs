@@ -93,7 +93,8 @@ header .logo {
 }
 
 header .nav {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header .nav > li > a {
